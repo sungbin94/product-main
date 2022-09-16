@@ -141,7 +141,7 @@ public class ProductController {
   }
 
   //전체상품목록화면
-  @GetMapping("/all")
+  @GetMapping
   public String allProducts(Model model) {
 
     List<Product> allProducts = productSVC.allProducts();
